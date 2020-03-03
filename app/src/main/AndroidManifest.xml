@@ -1,0 +1,18 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="io.demj.enablesolionpixel4">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        >
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+        <meta-data
+            android:name="xposeddescription"
+            android:value="Enable Soli on Pixel4 For All Country.开启谷歌4 雷达功能." />
+        <meta-data
+            android:name="xposedminversion"
+            android:value="89" />
+    </application>
+</manifest>
